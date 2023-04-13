@@ -148,8 +148,7 @@ main section:first-child input:last-of-type{
 }
 
 main section:first-child div.flexbox{
-    border: 1px solid black;
-    width: 100%;
+    height: max-content;
     gap: 5%;
 }
 
@@ -173,7 +172,9 @@ main section:first-child div.vertical-box div.who-are-you{
     border-bottom: 1px solid gray;
 }
 
-main section:first-child div.vertical-box div.who-are-you img.user{
+main section:first-child div.vertical-box div.who-are-you img.user,
+main section:first-child div.vertical-box div.who-are-you img.group,
+main section:first-child div.vertical-box div.who-are-you img.company{
     width: 14%;
     vertical-align: middle;
 }
