@@ -40,6 +40,11 @@ a.blue-button{
     color: white;
 }
 
+a.gray-button{
+    border-color: rgb(135, 135, 135);
+    color: rgb(135, 135, 135);
+}
+
 /* CONTAINERS ////////////////////// */
 .hero-container{
     padding: 90px 17.5% 15px;
