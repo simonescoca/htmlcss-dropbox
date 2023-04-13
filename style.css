@@ -6,7 +6,7 @@
     font-family: sans-serif;
 }
 
-/* STARTER PACK ////////////////////// */
+/* UTILITIES ////////////////////// */
 .flexbox{
     display: flex;
 }
@@ -40,6 +40,7 @@ a.blue-button{
     color: white;
 }
 
+/* CONTAINERS ////////////////////// */
 .hero-container{
     padding: 90px 17.5% 15px;
     background-color: lightblue;
@@ -83,7 +84,6 @@ nav li img{
 }
 
 /* HEADER HERO ////////////////////// */
-
 .hero-container{
     min-width: 1370px;
 }
@@ -100,12 +100,16 @@ nav li img{
     vertical-align: top;
 }
 
+.hero-container p.text{
+    line-height: 1.7rem;
+}
+
 .hero-container p.text, .hero-container a.button{
     margin-bottom: 35px;
 }
 
 .hero-container p.delete{
-    margin-bottom: 55px;
+    margin-bottom: 70px;
 }
 
 .hero-container img{
