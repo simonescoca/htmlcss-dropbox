@@ -1,9 +1,11 @@
-/* RESET */
+/* RESET ////////////////////// */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+/* STARTER PACK ////////////////////// */
 
 .flexbox{
     display: flex;
@@ -14,4 +16,48 @@
     flex-direction: column;
 }
 
-/*crea il bottone, e i container con i margini*/
+a.button{
+    display: inline-block;
+    padding: 10px 5px;
+}
+
+a.white-button{
+    background-color: white;
+    color: black;
+}
+
+a.blue-button{
+    background-color: rgb(0, 64, 227);
+    color: white;
+}
+
+.hero-container{
+
+}
+
+.body-container{
+
+}
+
+.examples-container{
+
+}
+
+.footer-container{
+
+}
+
+/* HEADER ////////////////////// */
+
+header{
+    border: 1px dashed black;
+}
+
+nav, section.hero-container{
+    border: 1px dashed green;
+}
+
+header ul{
+    border: 1px dashed red;
+
+}
