@@ -3,10 +3,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 /* STARTER PACK ////////////////////// */
-
 .flexbox{
     display: flex;
 }
@@ -27,6 +27,7 @@ a:hover{
 a.button{
     display: inline-block;
     padding: 10px 20px;
+    font-weight: 500;
 }
 
 a.white-button{
@@ -40,7 +41,8 @@ a.blue-button{
 }
 
 .hero-container{
-
+    padding: 60px 17.5% 15px;
+    background-color: lightblue;
 }
 
 .body-container{
@@ -55,10 +57,10 @@ a.blue-button{
 
 }
 
-/* HEADER ////////////////////// */
+/* HEADER NAV ////////////////////// */
 header{
-    border: 1px solid red;
-
+    min-width: 1005px;
+    font-weight: 300;
 }
 
 nav{
@@ -79,3 +81,5 @@ nav a{
 nav li img{
     height: 20px;
 }
+
+/* HEADER HERO ////////////////////// */
