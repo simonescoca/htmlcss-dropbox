@@ -16,9 +16,17 @@
     flex-direction: column;
 }
 
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
 a.button{
     display: inline-block;
-    padding: 10px 5px;
+    padding: 10px 20px;
 }
 
 a.white-button{
@@ -48,16 +56,26 @@ a.blue-button{
 }
 
 /* HEADER ////////////////////// */
-
 header{
-    border: 1px dashed black;
+    border: 1px solid red;
+
 }
 
-nav, section.hero-container{
-    border: 1px dashed green;
+nav{
+    justify-content: space-between;
+    padding: 15px;
 }
 
-header ul{
-    border: 1px dashed red;
+nav ul{
+    align-items: center;
+    list-style: none;
+    gap: 40px;
+}
 
+nav a{
+    color: black;
+}
+
+nav li img{
+    height: 20px;
 }
