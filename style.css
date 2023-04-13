@@ -41,12 +41,12 @@ a.blue-button{
 }
 
 .hero-container{
-    padding: 60px 17.5% 15px;
+    padding: 90px 17.5% 15px;
     background-color: lightblue;
 }
 
 .body-container{
-
+    padding: 0 25%;
 }
 
 .examples-container{
@@ -83,3 +83,37 @@ nav li img{
 }
 
 /* HEADER HERO ////////////////////// */
+
+.hero-container{
+    min-width: 1370px;
+}
+
+.hero-container p.hero-title{
+    font-weight: 800;
+    font-size: 5rem;
+    padding-bottom: 50px;
+}
+
+.hero-container div.herotxt-container{
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+}
+
+.hero-container p.text, .hero-container a.button{
+    margin-bottom: 35px;
+}
+
+.hero-container p.delete{
+    margin-bottom: 55px;
+}
+
+.hero-container img{
+    width: 60%;
+}
+
+.hero-container p.downarrow{
+    font-size: 3rem;
+}
+
+/* MAIN SECTION #1 ////////////////////// */
