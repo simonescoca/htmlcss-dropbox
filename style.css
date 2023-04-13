@@ -12,7 +12,7 @@
 }
 
 .flexbox-c{
-    display: flexbox;
+    display: flex;
     flex-direction: column;
 }
 
@@ -126,3 +126,72 @@ nav li img{
 }
 
 /* MAIN SECTION #1 ////////////////////// */
+
+main section:first-child{
+    padding-top: 80px;
+}
+
+main section:first-child > p.title{
+    font-weight: 600;
+    font-size: 2.5rem;
+    padding-bottom: 70px;
+}
+
+main section:first-child input{
+    vertical-align: baseline;
+    display: inline-block;
+    margin-bottom: 60px;
+}
+
+main section:first-child input:last-of-type{
+    margin-left: 50px;
+}
+
+main section:first-child div.flexbox{
+    border: 1px solid black;
+    height: 1400px;
+    width: 100%;
+    gap: 5%;
+}
+
+main section:first-child div.vertical-box{
+    border: 1px solid gray;
+    width: 30%;
+    font-weight: 300;
+    font-size: 0.85rem;
+    line-height: 1.4rem;
+}
+
+main section:first-child div.vertical-box div.plan{
+    padding: 0 15px;
+}
+
+
+main section:first-child div.vertical-box div.who-are-you{
+    padding: 15px 30%;
+    text-align: center;
+    border-bottom: 1px solid gray;
+}
+
+main section:first-child div.vertical-box p.title{
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding: 25px 0;
+}
+
+main section:first-child div.vertical-box p.price{
+    font-weight: 700;
+    font-size: 0.95rem;
+    padding-bottom: 10px;
+}
+
+main section:first-child div.vertical-box p.time{
+    color: gray;
+    padding-bottom: 45px;
+}
+
+main section:first-child div.vertical-box ul{
+    list-style: none;
+    gap: 15px;
+}
+
