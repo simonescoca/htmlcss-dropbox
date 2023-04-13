@@ -132,9 +132,14 @@ main section:first-child{
 }
 
 main section:first-child > p.title{
+    min-width: 443px;
     font-weight: 600;
     font-size: 2.5rem;
     padding-bottom: 70px;
+}
+
+main section:first-child div.radio-buttons{
+    min-width: 390px;
 }
 
 main section:first-child input{
@@ -155,6 +160,7 @@ main section:first-child div.flexbox{
 main section:first-child div.vertical-box{
     border: 1px solid gray;
     width: 30%;
+    min-width: 193px;
     font-weight: 300;
     font-size: 0.85rem;
     line-height: 1.4rem;
@@ -231,4 +237,31 @@ main section:first-child div.vertical-box p.title2{
     font-size: 1rem;
     font-weight: 700;
     margin-bottom: 30px;
+}
+
+main section:first-child div.horizontal-box{
+    margin-top: 48px;
+    height: 288px;
+    min-width: 645px;
+    border: 1px solid gray;
+    font-weight: 300;
+    font-size: 0.85rem;
+    line-height: 1.4rem;
+}
+
+main section:first-child div.horizontal-box div.who-are-you-h{
+    padding: 15px 30%;
+    text-align: center;
+    border-bottom: 1px solid gray;
+}
+
+main section:first-child div.horizontal-box div.who-are-you-h img.user-h{
+    width: 4.2%;
+    vertical-align: middle;
+}
+
+main section:first-child div.horizontal-box a.button{
+    position: absolute;
+    top: 15px;
+    right: 15px;
 }
