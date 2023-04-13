@@ -149,7 +149,6 @@ main section:first-child input:last-of-type{
 
 main section:first-child div.flexbox{
     border: 1px solid black;
-    height: 1400px;
     width: 100%;
     gap: 5%;
 }
@@ -163,7 +162,8 @@ main section:first-child div.vertical-box{
 }
 
 main section:first-child div.vertical-box div.plan{
-    padding: 0 15px;
+    padding: 0 25px;
+    position: relative;
 }
 
 
@@ -171,6 +171,11 @@ main section:first-child div.vertical-box div.who-are-you{
     padding: 15px 30%;
     text-align: center;
     border-bottom: 1px solid gray;
+}
+
+main section:first-child div.vertical-box div.who-are-you img.user{
+    width: 14%;
+    vertical-align: middle;
 }
 
 main section:first-child div.vertical-box p.title{
@@ -193,5 +198,36 @@ main section:first-child div.vertical-box p.time{
 main section:first-child div.vertical-box ul{
     list-style: none;
     gap: 15px;
+    padding: 0 20px 45px;
 }
 
+main section:first-child div.vertical-box ul li img.user,
+main section:first-child div.vertical-box ul li img.directory,
+main section:first-child div.vertical-box ul li img.share,
+main section:first-child div.vertical-box ul li img.check{
+    width: 8%;
+    vertical-align: middle;
+    position: absolute;
+    left: 12px;
+}
+
+main section:first-child div.vertical-box a.button{
+    margin-bottom: 30px;
+    width: 100%;
+    text-align: center;
+}
+
+main section:first-child div.vertical-box p.buy-now{
+    margin-bottom: 30px;
+}
+
+main section:first-child div.vertical-box hr{
+    width: 30%;
+    margin-bottom: 50px;
+}
+
+main section:first-child div.vertical-box p.title2{
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
