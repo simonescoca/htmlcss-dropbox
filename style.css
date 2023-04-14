@@ -448,3 +448,19 @@ main section:nth-child(5) .text-container p.text{
     line-height: 1.7rem;
     margin-bottom: 80px;
 }
+/* MAIN SECTION #6 ////////////////////// */
+main section:nth-child(6){
+    background-color: lightblue;
+    margin-bottom: 180px;
+}
+
+main section:nth-child(6) div{
+    padding-top: 160px;
+    padding-bottom: 90px;
+    text-align: center;
+}
+
+main section:nth-child(6) p.title1{
+    color: rgb(106, 68, 114);
+    margin-bottom: 70px;
+}
