@@ -6,6 +6,10 @@
     font-family: sans-serif;
 }
 
+main{
+    font-weight: 300;
+}
+
 /* UTILITIES ////////////////////// */
 .flexbox{
     display: flex;
@@ -41,8 +45,28 @@ a.blue-button{
 }
 
 a.gray-button{
-    border-color: rgb(135, 135, 135);
+    border: 1px solid rgb(135, 135, 135);
     color: rgb(135, 135, 135);
+}
+
+p.title1{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+p.title2{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+p.title3{
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+p.price{
+    font-size: 0.95rem;
+    font-weight: 700;
 }
 
 /* CONTAINERS ////////////////////// */
@@ -125,16 +149,19 @@ nav li img{
     font-size: 3rem;
 }
 
-/* MAIN SECTION #1 ////////////////////// */
-
-main section:first-child{
-    padding-top: 80px;
+/* MAIN GENERAL ////////////////////// */
+main{
+    font-weight: 300;
 }
 
-main section:first-child > p.title{
+/* MAIN SECTION #1 ////////////////////// */
+main section:first-child{
+    padding-top: 80px;
+    font-size: 0.85rem;
+}
+
+main section:first-child p.title1{
     min-width: 443px;
-    font-weight: 600;
-    font-size: 2.5rem;
     padding-bottom: 70px;
 }
 
@@ -158,11 +185,11 @@ main section:first-child div.flexbox{
 }
 
 main section:first-child div.vertical-box{
+    
     border: 1px solid gray;
     width: 30%;
     min-width: 193px;
     font-weight: 300;
-    font-size: 0.85rem;
     line-height: 1.4rem;
 }
 
@@ -185,15 +212,11 @@ main section:first-child div.vertical-box div.who-are-you img.company{
     vertical-align: middle;
 }
 
-main section:first-child div.vertical-box p.title{
-    font-size: 1.5rem;
-    font-weight: 700;
+main section:first-child div.vertical-box p.title2{
     padding: 25px 0;
 }
 
 main section:first-child div.vertical-box p.price{
-    font-weight: 700;
-    font-size: 0.95rem;
     padding-bottom: 10px;
 }
 
@@ -233,9 +256,7 @@ main section:first-child div.vertical-box hr{
     margin-bottom: 50px;
 }
 
-main section:first-child div.vertical-box p.title2{
-    font-size: 1rem;
-    font-weight: 700;
+main section:first-child div.vertical-box p.title3{
     margin-bottom: 30px;
 }
 
@@ -245,7 +266,6 @@ main section:first-child div.horizontal-box{
     min-width: 645px;
     border: 1px solid gray;
     font-weight: 300;
-    font-size: 0.85rem;
     line-height: 1.4rem;
 }
 
@@ -260,8 +280,45 @@ main section:first-child div.horizontal-box div.who-are-you-h img.user-h{
     vertical-align: middle;
 }
 
+main section:first-child div.horizontal-box div.plan{
+    position: relative;
+    padding: 0 25px;
+}
+
 main section:first-child div.horizontal-box a.button{
     position: absolute;
     top: 15px;
     right: 15px;
 }
+
+main section:first-child div.horizontal-box p.title2{
+    padding: 25px 0;
+}
+
+main section:first-child div.horizontal-box p.price{
+    padding-bottom: 60px;
+}
+
+/* MAIN SECTION #2 ////////////////////// */
+main section:nth-child(2){
+    padding-top: 80px;
+    height: 500px;
+}
+
+main section:nth-child(2) img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+main section:nth-child(2) div{
+    padding: 45px;
+    align-items: flex-start;
+    gap: 40px;
+} 
+
+main section:nth-child(2) p.text{
+    line-height: 1.4rem;
+}
+
+/* MAIN SECTION #3 ////////////////////// */
