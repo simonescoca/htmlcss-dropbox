@@ -80,7 +80,8 @@ p.price{
 }
 
 .footer-container{
-
+    padding: 90px 17.5%;
+    background-color: black;
 }
 
 /* HEADER NAV ////////////////////// */
@@ -488,6 +489,37 @@ main section:nth-child(7) a{
 
 main section:nth-child(7) a:hover{
     text-decoration: none;
+}
+
+/* FOOTER SECTION #1 ////////////////////// */
+footer section.links{
+    justify-content: space-between;
+}
+footer ul{
+    list-style: none;
+    margin-bottom: 100px;
+}
+
+footer ul li:first-child{
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+footer li{
+    color: white;
+    line-height: 1.7rem;
+}
+
+footer a{
+    color: white;
+    font-weight: 300;
+}
+
+footer hr.cut{
+    color: white;
+    width: 20%;
+    margin-bottom: 50px;
 }
 
 /* FOOTER SECTION #1 ////////////////////// */
