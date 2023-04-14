@@ -339,6 +339,7 @@ main section:nth-child(3) div.flexbox{
 
 main section:nth-child(3) div.card{
     width: calc(100% / 3);
+    min-width: 275px;
     margin-bottom: 20px;
 }
 
