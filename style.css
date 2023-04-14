@@ -474,12 +474,14 @@ main section:nth-child(7){
 main section:nth-child(7) div.start{
     padding: 0px 80px 80px 80px;
     border-bottom: 1px solid black;
+    min-width: 410px;
 }
 
 main section:nth-child(7) div.flexbox{
     padding: 50px 50px 50px 0;
     border-bottom: 1px solid black;
     justify-content: space-between;
+    min-width: 410px;
 }
 
 main section:nth-child(7) a{
@@ -498,6 +500,7 @@ footer section.links{
 footer ul{
     list-style: none;
     margin-bottom: 100px;
+    min-width: 156px;
 }
 
 footer ul li:first-child{
@@ -523,3 +526,15 @@ footer hr.cut{
 }
 
 /* FOOTER SECTION #1 ////////////////////// */
+
+footer section.lang img{
+    height: 20px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+footer section.lang select{
+    background-color: black;
+    border: none;
+    color: white;
+}
