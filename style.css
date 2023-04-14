@@ -309,12 +309,14 @@ main section:nth-child(2) img{
     height: 100%;
     width: 100%;
     object-fit: cover;
+    min-width: 491px;
 }
 
 main section:nth-child(2) div{
     padding: 45px;
     align-items: flex-start;
     gap: 40px;
+    min-width: 336px;
 } 
 
 main section:nth-child(2) p.text{
