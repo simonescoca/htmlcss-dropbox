@@ -79,10 +79,6 @@ p.price{
     padding: 0 25%;
 }
 
-.examples-container{
-
-}
-
 .footer-container{
 
 }
@@ -379,3 +375,76 @@ main section:nth-child(4) a{
 }
 
 /* MAIN SECTION #5 ////////////////////// */
+main section:nth-child(5){
+    min-width: 1900px;
+}
+
+main section:nth-child(5) aside{
+    height: 600px;
+    width: 600px;
+    flex-wrap: wrap;
+}
+
+main section:nth-child(5) aside .square{
+    width: 50%;
+    height: 50%;
+    background-color: red;
+}
+
+#A{
+background-color: rgb(255, 0, 0);
+}
+
+#B{
+    background-color: rgb(0, 255, 8);
+}
+
+#C{
+    background-color: rgb(183, 0, 255);
+}
+
+#D{
+    background-color: rgb(255, 213, 0);
+}
+
+#E{
+    background-color: rgb(25, 0, 255);
+}
+
+#F{
+    background-color: rgb(0, 229, 255);
+}
+
+#G{
+    background-color: rgb(114, 130, 65);
+}
+
+#H{
+    background-color: rgb(0, 0, 0);
+}
+
+main section:nth-child(5) aside .square img{
+    width: 60%;
+    margin: auto;
+    filter: invert(1);
+}
+
+main section:nth-child(5) .text-container{
+    width: calc(100% - 1200px);
+    background-color: antiquewhite;
+    padding: 55px 55px 0;
+}
+
+main section:nth-child(5) .text-container img{
+    margin-bottom: 65px;
+}
+
+main section:nth-child(5) .text-container hr{
+    width: 20%;
+    margin-bottom: 65px;
+}
+
+main section:nth-child(5) .text-container p.text{
+    line-height: 1.7rem;
+    margin-bottom: 80px;
+}
