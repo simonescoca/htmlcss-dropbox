@@ -465,7 +465,7 @@ main section:nth-child(6) p.title1{
     margin-bottom: 70px;
 }
 
-/* MAIN SECTION #6 ////////////////////// */
+/* MAIN SECTION #7 ////////////////////// */
 main section:nth-child(7){
     margin-bottom: 130px;
 }
@@ -489,3 +489,5 @@ main section:nth-child(7) a{
 main section:nth-child(7) a:hover{
     text-decoration: none;
 }
+
+/* FOOTER SECTION #1 ////////////////////// */
