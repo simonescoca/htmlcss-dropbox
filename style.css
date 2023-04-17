@@ -433,6 +433,7 @@ main section:nth-child(5) .text-container{
     height: calc(100vw / 3);
     background-color: antiquewhite;
     padding: 2.85vw 2.85vw 0;
+    overflow: auto;
 }
 
 main section:nth-child(5) .text-container img{
@@ -446,13 +447,13 @@ main section:nth-child(5) .text-container hr{
 }
 
 main section:nth-child(5) .text-container p.text{
-    line-height: 1.6vw;
-    font-size: 0.9vw;
+    line-height: 1.7rem;
+    /* font-size: 0.9vw; */
     margin-bottom: 4.2vw;
 }
 
 main section:nth-child(5) .text-container p.sign{
-    font-size: 0.9vw;
+    /* font-size: 0.9vw; */
 }
 /* MAIN SECTION #6 ////////////////////// */
 main section:nth-child(6){
